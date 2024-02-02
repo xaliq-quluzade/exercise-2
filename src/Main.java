@@ -2,16 +2,35 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        // 1. Write a Java program to get the index of all the characters of the alphabet.
         printCharacterIndex();
+
+        // 2. Write a Java program to replace each substring of a given string that matches the given regular expression with the given replacement.
         replaceEachString();
+
+        // 3. Write a Java program to find the second most frequent character in a given string.
         secondMostFrequentCharacter();
+
+        // 4. Write a Java program to print the result of removing duplicates from a given string.
         removeDublicate();
+
+        // 5. Write a Java program to divide a string into n equal parts.
         divideString();
+
+        // 6. Write a Java program to reverse words in a given string.
         reverseSentence();
+
+        // 7. Write a Java program to return the sum of the digits present in the given string. In the absence of digits, the sum is 0.
         sumDigitsInString();
+
+        // 8. Write a Java program to sort in ascending and descending order by the length of the given array of strings.
         ascendigOrderByLength();
         descendigOrderByLength();
+
+        // 9. Write a Java program to find the maximum and minimum value of an array.
         minimumAndMaximumValue();
+
+        // 10.Write a program to count the occurrences of a specific value in an array.
         countNumberInArray();
     }
 
@@ -32,7 +51,7 @@ public class Main {
 
     public static void secondMostFrequentCharacter() {
         String s = "successes";
-        String s2 = "";
+        String s2 = ""; //suce
         int[] counts = null;
 
         for (int i = 0; i < s.length(); i++) {
